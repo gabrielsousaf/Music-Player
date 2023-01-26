@@ -1,12 +1,25 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 body {
   height: 100vh;
-  background: linear-gradient(to bottom, #2887e3 50%, #16191e 50%);
+  background: #27272D;
+}
+
+button{
+  cursor: pointer;
 }
 .music-player {
   font-size: 16px;
   width: 80vw;
   max-width: 25em;
-  background-color: #ffffff;
+  background-color: #2C2F36;
   padding: 3em 1.8em;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -15,12 +28,20 @@ body {
   border-radius: 0.5em;
   box-shadow: 0.6em 1.2em 3em rgba(0, 0, 0, 0.25);
 }
-img {
+
+.rotate-image{
+  animation: rotation 15s infinite linear;
+}
+img{
   width: 100%;
   margin-top: 1.25em;
+  border-radius: 100%;
+  border: 8px solid #171A1F;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 #playlist {
   float: right;
+  color: #AC3E06;
 }
 .song-details {
   font-family: "Poppins", sans-serif;
@@ -30,9 +51,11 @@ img {
   font-size: 1.3em;
   font-weight: 600;
   letter-spacing: 0.3px;
+  color: #95969B;
 }
 .song-details #song-artist {
   font-size: 0.8em;
+  color: #95969B;
 }
 .player-options {
   display: flex;
@@ -50,18 +73,18 @@ img {
   height: 2.5em;
   width: 2.5em;
   font-size: 1.8em;
-  background-color: #2887e3;
+  background-color: #AC3E06;
   color: #ffffff;
   border-radius: 50%;
 }
 #prev,
 #next {
-  color: #16191e;
+  color: #AC3E06;
   font-size: 1.4em;
 }
 #shuffle,
 #repeat {
-  color: #949494;
+  color: #AC3E06;
   font-size: 1em;
 }
 .hide {
@@ -83,7 +106,7 @@ img {
   display: inline-block;
   height: 100%;
   width: 20%;
-  background-color: #2887e3;
+  background-color: #AC3E06;
   border-radius: 0.18em;
 }
 .time-container {
@@ -91,6 +114,7 @@ img {
   align-items: center;
   justify-content: space-between;
   font-family: "Roboto Mono", monospace;
+  color: #95969B;
 }
 #playlist-container {
   background-color: #ffffff;

@@ -110,6 +110,7 @@ const playAudio = () => {
   audio.play();
   pauseButton.classList.remove("hide");
   playButton.classList.add("hide");
+  songImage.classList.add("rotate-image")
 };
 
 //repeat button
@@ -152,6 +153,8 @@ const pauseAudio = () => {
   audio.pause();
   pauseButton.classList.add("hide");
   playButton.classList.remove("hide");
+  songImage.classList.remove("rotate-image")
+
 };
 
 //previous song ( you can't go back to a randomly played song)
