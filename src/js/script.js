@@ -16,12 +16,17 @@ const playlistContainer = document.getElementById("playlist-container");
 const closeButton = document.getElementById("close-button");
 const playlistSongs = document.getElementById("playlist-songs");
 const currentProgress = document.getElementById("current-progress");
+const volumeSong = document.getElementById("volumeSlider");
 
 //index for songs
 let index;
 
 //initially loop=true
 let loop = true;
+
+volumeSong.addEventListener("change", () => {
+  audio.volume = volumeSong.value;
+})
 
 const songsList = [
   {
@@ -154,7 +159,6 @@ const pauseAudio = () => {
   pauseButton.classList.add("hide");
   playButton.classList.remove("hide");
   songImage.classList.remove("rotate-image")
-
 };
 
 //previous song ( you can't go back to a randomly played song)

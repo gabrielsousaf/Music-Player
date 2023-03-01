@@ -7,6 +7,7 @@
   }
 }
 
+
 body {
   height: 100vh;
   background: #27272D;
@@ -15,6 +16,7 @@ body {
 button{
   cursor: pointer;
 }
+
 .music-player {
   font-size: 16px;
   width: 80vw;
@@ -32,6 +34,7 @@ button{
 .rotate-image{
   animation: rotation 15s infinite linear;
 }
+
 img{
   width: 100%;
   margin-top: 1.25em;
@@ -39,24 +42,29 @@ img{
   border: 8px solid #171A1F;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
 #playlist {
   float: right;
   color: #AC3E06;
 }
+
 .song-details {
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
+
 .song-details #song-name {
   font-size: 1.3em;
   font-weight: 600;
   letter-spacing: 0.3px;
   color: #95969B;
 }
+
 .song-details #song-artist {
   font-size: 0.8em;
   color: #95969B;
 }
+
 .player-options {
   display: flex;
   align-items: center;
@@ -64,10 +72,12 @@ img{
   padding: 0 1.25em;
   margin: 1.25em 0 0.6em 0;
 }
+
 .music-player button {
   border: none;
   background-color: transparent;
 }
+
 #play,
 #pause {
   height: 2.5em;
@@ -77,19 +87,23 @@ img{
   color: #ffffff;
   border-radius: 50%;
 }
+
 #prev,
 #next {
   color: #AC3E06;
   font-size: 1.4em;
 }
+
 #shuffle,
 #repeat {
   color: #AC3E06;
   font-size: 1em;
 }
+
 .hide {
   display: none;
 }
+
 #progress-bar {
   position: relative;
   width: 100%;
@@ -99,6 +113,7 @@ img{
   border-radius: 0.18em;
   cursor: pointer;
 }
+
 #current-progress {
   position: absolute;
   left: 0;
@@ -109,6 +124,7 @@ img{
   background-color: #AC3E06;
   border-radius: 0.18em;
 }
+
 .time-container {
   display: flex;
   align-items: center;
@@ -116,6 +132,7 @@ img{
   font-family: "Roboto Mono", monospace;
   color: #95969B;
 }
+
 #playlist-container {
   background-color: #ffffff;
   position: absolute;
@@ -128,6 +145,7 @@ img{
   padding: 2em 1em;
   font-family: "Poppins", sans-serif;
 }
+
 #close-button {
   background-color: transparent;
   border: none;
@@ -136,28 +154,35 @@ img{
   cursor: pointer;
   margin-left: 90%;
 }
+
 ul {
   list-style-type: none;
 }
+
 li {
   display: flex;
   align-items: center;
   margin: 1em 0;
   cursor: pointer;
 }
+
 .playlist-song-details {
   margin-left: 1em;
 }
+
 .playlist-song-details > span {
   display: block;
 }
+
 #playlist-song-artist-album {
   color: #949494;
   font-size: 0.8em;
 }
+
 button.active i {
   color: #2887e3;
 }
+
 @media screen and (max-width: 450px) {
   .music-player {
     font-size: 14px;
@@ -167,3 +192,9 @@ button.active i {
 .playlist-image-container {
   width: 3em;
 }
+
+.volume{
+  cursor: pointer;
+}
+
+
