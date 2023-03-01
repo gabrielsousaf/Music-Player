@@ -1,7 +1,8 @@
 <h1 align="center" width:100%>
+  
+![Music Player - Google Chrome 2023-03-01 14-42-44](https://user-images.githubusercontent.com/121953504/222220116-4eb89e64-d960-4c79-a239-07812168fccb.gif)
+![Design_sem_nome-removebg-preview](https://user-images.githubusercontent.com/121953504/222219442-5a6ee165-d076-48b4-9ce2-8d3c5916cdb3.png)
 
-![Custom Music Player - Google Chrome 2022-08-08 16-12-14](https://user-images.githubusercontent.com/97768716/183496501-18642734-767c-496c-95c0-d15e90d1e6fd.gif)
-![172434106-bb6b8b9d-4878-454b-8dca-4d1af4aec0ac__2_-removebg-preview](https://user-images.githubusercontent.com/97768716/183533724-4d125079-e522-4799-adc6-3a7bb6935deb.png)
 
 # 📱 Music Player.
 > Esse repositório tem como objetivo principal apresentar meus estudos e aplicar em projetos pessoais.
