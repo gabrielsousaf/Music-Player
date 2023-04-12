@@ -26,5 +26,9 @@
 ## ✨ Music Player.
 > Music Player feito em Javascript
 
+## 📝 Licença
+
+> Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE) para mais detalhes.
+
 https://gabrielsousaf.github.io/Music-Player/
 
